@@ -28,7 +28,7 @@ create-cron_function: build-cron_function
 		--role $(ROLE) \
 		--runtime python3.7 \
 		--timeout 120 \
-		--memory-size 512 \
+		--memory-size 128 \
 
 update-cron_function: build-cron_function
 	aws lambda update-function-code \
