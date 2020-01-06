@@ -38,10 +38,10 @@ aws lambda add-permission \
 
 ```
 
-* Use the following put-targets command to add the Lambda function that you created to this rule so that it runs every five minutes:
+* Use the following put-targets command to add the Lambda function that you created to this rule so that it runs every one minute:
 
 ```
-aws events put-targets --rule my-scheduled-rule --targets file://targets.json
+aws events put-targets --rule my-scheduled-rule --targets file://targets.json --region ap-south-1
 
 ```
 * Create the file targets.json with the following contents:
