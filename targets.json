@@ -1,0 +1,6 @@
+[
+  {
+    "Id": "1", 
+    "Arn": "arn:aws:lambda:ap-south-1:199544080386:function:cron_function"
+  }
+]
